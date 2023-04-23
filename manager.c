@@ -47,6 +47,7 @@ void saveData(Product p[], int count){
 	
 	fclose(fp);
 	printf("저장됨!\n");
+
 }
 
 
