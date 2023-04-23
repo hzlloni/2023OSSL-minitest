@@ -66,7 +66,8 @@ int loadData(Product *p){
         }
         fscanf(fp, "%dg", &p->weight);
         fscanf(fp, "%d원", &p->price);
-			count++;
+	count++;
+	
 	printf("=> 로딩 성공!\n");
 	fclose(fp);
 	return count;
